@@ -1,0 +1,17 @@
+mingw32-make komutuyla hem derlenir hem çalıştırılır program 
+
+Program ilk açıldığında 
+(1) tuşuna basarsanız her şeyi sıfırdan rastgele oluşturur 
+(2) tuşuna basarsanız en son kaydedilen dosyayı açıp kaldığınız yerden devam ettirir
+
+*LİSTE MODU 
+W ve S Tuşları: İki yönlü bağlı listede düğümler arası yukarı ve aşağı gezinmenizi sağlar
+C Tuşu: Seçili olan kutuyu (düğümü) tamamen siler
+F Tuşu: Seçili kutunun içine girer ve sağdaki şekilleri yönetmenizi sağlar (Şekil Moduna geçer)
+ESC Tuşu: Yaptığınız her şeyi kaydedip programdan çıkar
+
+*ŞEKİL MODU 
+W, A, S, D Tuşları: Seçili olan şekli yukarı, sola, aşağı ve sağa hareket ettirir
+Q ve E Tuşları: O kutunun içindeki diğer şekiller arasında geçiş yapar
+C Tuşu: Seçili olan şekli siler. (Son şekli silerseniz kutu da silinir)
+G Tuşu: Geri dönmenizi sağlar, tekrar Liste Moduna geçer
